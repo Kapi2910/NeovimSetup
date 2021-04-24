@@ -26,8 +26,8 @@ endfunction
 command! -nargs=0 GitAddCurr call s:StageCurrent()
 
 function! s:GitCommit()
-   let Message = input('Enter Message: ') 
-   :Git commit -m Message  
+   let g:Message = input('Enter Message: ') 
+   :Git commit -m v:Message  
 endfunction
 command! -nargs=0 GitCommit call s:GitCommit()
 " Git Mappings
