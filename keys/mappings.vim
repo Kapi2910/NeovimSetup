@@ -18,22 +18,15 @@ inoremap <expr> <S-tab> pumvisible() ? "\<C-p>" : "<S-tab>"
 vnoremap <M-j> :m '>+1<CR>gv=gv
 vnoremap <M-k> :m '<-2<CR>gv=gv
 
-function! s:StageCurrent()
-    let file = expand('%:p')
-    :Git add file 
-endfunction
-
-command! -nargs=0 GitAddCurr call s:StageCurrent()
-
-function! s:GitCommit()
-   let g:Message = input('Enter Message: ') 
-   :Git commit -m v:Message  
-endfunction
-command! -nargs=0 GitCommit call s:GitCommit()
 " Git Mappings
 nnoremap <silent> <leader>gS :Git status<CR>
-nnoremap <silent> <leader>gac :GitAddCurr<CR>
+nnoremap <silent> <leader>gc :Git commit -m ""
+nnoremap <silent> <leader>gb :Git checkout -b
+nnoremap <silent> <leader>gac :Git add 
 nnoremap <silent> <leader>gaa :Git add *<CR>
-nnoremap <silent> <leader>gc :GitCommit<CR>
+nnoremap <silent> <leader>gp :Git push<CR>
+nnoremap <silent> <leader>gP :Git pull<CR>
+nnoremap <silent> <leader>gs :Git stash<CR>
+
 
 
