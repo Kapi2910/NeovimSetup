@@ -15,3 +15,5 @@ nnoremap <S-tab>    :bprevious<CR>
 inoremap <expr> <tab> pumvisible() ? "\<C-n>" : "<tab>"
 inoremap <expr> <S-tab> pumvisible() ? "\<C-p>" : "<S-tab>"
 
+vnoremap <M-j> :m '>+1<CR>gv=gv
+vnoremap <M-k> :m '<-2<CR>gv=gv
