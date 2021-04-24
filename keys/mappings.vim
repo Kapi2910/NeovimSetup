@@ -27,6 +27,7 @@ nnoremap <silent> <leader>gaa :Git add *<CR>
 nnoremap <silent> <leader>gp :Git push<CR>
 nnoremap <silent> <leader>gP :Git pull<CR>
 nnoremap <silent> <leader>gs :Git stash<CR>
-
+nnoremap <silent> <leader>gd :Git diff<CR>
+nnoremap <silent> <leader>gB :Git blame<CR>
 
 
