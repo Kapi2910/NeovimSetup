@@ -30,6 +30,17 @@ autocmd  FileType which_key set laststatus=0 noshowmode noruler
 " Quit Commands
 let g:which_key_map.q = 'quit'
 nnoremap <silent> <leader>q :q<CR>
+" File Commands
+let g:which_key_map.f = { 'name' : '+file' }
+
+nnoremap <silent> <leader>fs :update<CR>
+let g:which_key_map.f.s = 'save-file'
+
+nnoremap <silent> <leader>fd :e $MYVIMRC<CR>
+let g:which_key_map.f.d = 'open-vimrc'
+
+nnoremap <silent> <leader>fq :wq<CR>
+let g:which_key_map.f.q = 'save-&-quit'
 
 let g:which_key_map['w'] = {
       \ 'name' : '+windows' ,
@@ -51,17 +62,6 @@ let g:which_key_map['w'] = {
       \ 'v' : ['<C-W>v'     , 'split-window-below']    ,
       \ '?' : ['Windows'    , 'fzf-window']            ,
       \ }
-" File Commands
-let g:which_key_map.f = { 'name' : '+file' }
-
-nnoremap <silent> <leader>fs :update<CR>
-let g:which_key_map.f.s = 'save-file'
-
-nnoremap <silent> <leader>fd :e $MYVIMRC<CR>
-let g:which_key_map.f.d = 'open-vimrc'
-
-nnoremap <silent> <leader>fq :wq<CR>
-let g:which_key_map.f.q = 'save-&-quit'
 
 
 " Buffer Commands
@@ -79,20 +79,6 @@ let g:which_key_map.f.q = 'save-&-quit'
       \ }
 
  
-let g:which_key_map.l = {
-      \ 'name' : '+lsp',
-      \ 'f' : ['spacevim#lang#util#Format()'          , 'formatting']       ,
-      \ 'r' : ['spacevim#lang#util#FindReferences()'  , 'references']       ,
-      \ 'R' : ['spacevim#lang#util#Rename()'          , 'rename']           ,
-      \ 's' : ['spacevim#lang#util#DocumentSymbol()'  , 'document-symbol']  ,
-      \ 'S' : ['spacevim#lang#util#WorkspaceSymbol()' , 'workspace-symbol'] ,
-      \ 'g' : {
-        \ 'name': '+goto',
-        \ 'd' : ['spacevim#lang#util#Definition()'     , 'definition']      ,
-        \ 't' : ['spacevim#lang#util#TypeDefinition()' , 'type-definition'] ,
-        \ 'i' : ['spacevim#lang#util#Implementation()' , 'implementation']  ,
-        \ },
-      \ }
 
 "n is for NERDTree
 let g:which_key_map.n = {
