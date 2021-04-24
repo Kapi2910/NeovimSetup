@@ -1,11 +1,12 @@
 call plug#begin(stdpath('data').'/plugged')
 " File Viewers
-    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'nvim-lua/popup.nvim'
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
     Plug 'mhinz/vim-startify'
 " NERDTree
+    Plug 'kyazdani42/nvim-web-devicons' " for file icons
+    Plug 'kyazdani42/nvim-tree.lua'
     Plug 'preservim/nerdtree'
     Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
     Plug 'preservim/nerdcommenter'

@@ -5,7 +5,6 @@ set smartindent
 set expandtab
 set shiftwidth=4
 set timeoutlen=250
-set guifont=JetBrains\ Mono:h15
 set encoding=utf-8
 syntax on
 filetype plugin indent on

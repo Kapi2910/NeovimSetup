@@ -30,4 +30,7 @@ nnoremap <silent> <leader>gs :Git stash<CR>
 nnoremap <silent> <leader>gd :Git diff<CR>
 nnoremap <silent> <leader>gB :Git blame<CR>
 
-
+" Tree Mappings
+nnoremap <leader>tt :NvimTreeToggle<CR>
+nnoremap <leader>tr :NvimTreeRefresh<CR>
+nnoremap <leader>tn :NvimTreeFindFile<CR>
