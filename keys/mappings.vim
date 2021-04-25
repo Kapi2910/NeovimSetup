@@ -15,8 +15,13 @@ nnoremap <S-tab>    :bprevious<CR>
 inoremap <expr> <tab> pumvisible() ? "\<C-n>" : "<tab>"
 inoremap <expr> <S-tab> pumvisible() ? "\<C-p>" : "<S-tab>"
 
+" Line Movement
 vnoremap <M-j> :m '>+1<CR>gv=gv
 vnoremap <M-k> :m '<-2<CR>gv=gv
+
+" Better Indent
+vnoremap <silent> > >gv
+vnoremap <silent> < <gv
 
 " Git Mappings
 nnoremap <silent> <leader>gS :Git status<CR>
