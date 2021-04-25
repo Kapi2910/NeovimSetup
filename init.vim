@@ -17,6 +17,7 @@ source ~\Appdata\Local\nvim\plugins_config\airline.vim
 source ~\Appdata\Local\nvim\plugins_config\nerdtree.vim
 source ~\Appdata\Local\nvim\plugins_config\languages\md-config.vim
 
+luafile ~\AppData\Local\nvim\plugins_config\languages\vim-config.lua
 luafile ~\Appdata\Local\nvim\plugins_config\lsp-config.lua
 luafile ~\AppData\Local\nvim\plugins_config\telescope.lua
 luafile ~\AppData\Local\nvim\plugins_config\compe-config.lua    
