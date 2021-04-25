@@ -1,2 +1,1 @@
-require'lspconfig'.rls.setup{}
-vim.cmd("autocmd InsertLeave,BufEnter,BufWinEnter,TabEnter,BufWritePost *.rs :lua require'lsp_extensions'.inlay_hints{ prefix = ' » ', highlight = 'NonText', enabled = {'ChainingHint'} }")
+require'lspconfig'.rls.setup{ on_attach=require'completion'.on_attach }
