@@ -25,8 +25,6 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
     Plug 'neovim/nvim-lspconfig'
     Plug 'hrsh7th/nvim-compe'
-    Plug 'nvim-lua/lsp_extensions.nvim'
-    Plug 'nvim-lua/completion-nvim'
     Plug 'nvim-treesitter/nvim-treesitter'
 
 " Prettifiers
