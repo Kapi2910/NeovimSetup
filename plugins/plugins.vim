@@ -33,6 +33,7 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'vim-airline/vim-airline'
     Plug 'rbgrouleff/bclose.vim'
     Plug 'liuchengxu/vim-which-key'
+    Plug 'ryanoasis/vim-devicons'
 
 " Themes
     Plug 'morhetz/gruvbox'
