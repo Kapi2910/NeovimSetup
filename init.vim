@@ -14,10 +14,10 @@ source ~\Appdata\Local\nvim\themes\onedark.vim
 " Plugins Config
 source ~\Appdata\Local\nvim\keys\which_key.vim  
 source ~\Appdata\Local\nvim\plugins_config\airline.vim  
-source ~\Appdata\Local\nvim\plugins_config\lsp-config.vim
 source ~\Appdata\Local\nvim\plugins_config\nerdtree.vim
 source ~\Appdata\Local\nvim\plugins_config\languages\md-config.vim
 
+luafile ~\Appdata\Local\nvim\plugins_config\lsp-config.lua
 luafile ~\AppData\Local\nvim\plugins_config\telescope.lua
 luafile ~\AppData\Local\nvim\plugins_config\compe-config.lua    
 luafile ~\Appdata\Local\nvim\plugins_config\treesitter.lua
