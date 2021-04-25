@@ -26,6 +26,8 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'neovim/nvim-lspconfig'
     Plug 'hrsh7th/nvim-compe'
     Plug 'nvim-treesitter/nvim-treesitter'
+    Plug 'nvim-lua/lsp_extensions.nvim'
+    Plug 'simrat39/rust-tools.nvim'
 
 " Prettifiers
     Plug 'jiangmiao/auto-pairs'

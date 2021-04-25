@@ -20,6 +20,7 @@ luafile ~\AppData\Local\nvim\plugins_config\languages\vim-config.lua
 luafile ~\Appdata\Local\nvim\plugins_config\lsp-config.lua
 luafile ~\AppData\Local\nvim\plugins_config\telescope.lua
 luafile ~\AppData\Local\nvim\plugins_config\compe-config.lua    
+luafile ~\AppData\Local\nvim\plugins_config\rs-tools.lua
 luafile ~\Appdata\Local\nvim\plugins_config\treesitter.lua
 luafile ~\Appdata\Local\nvim\plugins_config\languages\lua-config.lua
 luafile ~\Appdata\Local\nvim\plugins_config\languages\rust-config.lua
