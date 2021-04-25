@@ -1,7 +1,6 @@
 " Plugins
 source ~\AppData\Local\nvim\plugins\plugins.vim
 
-
 " General Vim Settings
 source ~\Appdata\Local\nvim\general\general.vim  " General
 source ~\Appdata\Local\nvim\keys\mappings.vim   " Key Mapping
