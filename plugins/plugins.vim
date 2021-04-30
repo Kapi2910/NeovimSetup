@@ -28,6 +28,7 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'nvim-treesitter/nvim-treesitter'
     Plug 'nvim-lua/lsp_extensions.nvim'
     Plug 'simrat39/rust-tools.nvim'
+    Plug 'glepnir/lspsaga.nvim'
 
 " Prettifiers
     Plug 'jiangmiao/auto-pairs'
@@ -36,7 +37,7 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'rbgrouleff/bclose.vim'
     Plug 'liuchengxu/vim-which-key'
     Plug 'ryanoasis/vim-devicons'
-
+    Plug 'voldikss/vim-floaterm'
 " Themes
     Plug 'morhetz/gruvbox'
     Plug 'joshdick/onedark.vim'
