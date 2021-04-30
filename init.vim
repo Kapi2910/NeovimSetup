@@ -14,15 +14,16 @@ source ~\Appdata\Local\nvim\themes\onedark.vim
 source ~\Appdata\Local\nvim\keys\which_key.vim  
 source ~\Appdata\Local\nvim\plugins_config\airline.vim  
 source ~\Appdata\Local\nvim\plugins_config\nerdtree.vim
-source ~\Appdata\Local\nvim\plugins_config\languages\md-config.vim
+source ~\Appdata\Local\nvim\plugins_config\lsp\md-config.vim
 source ~\AppData\Local\nvim\plugins_config\completion-config.vim    
 
 luafile ~\Appdata\Local\nvim\plugins_config\lsp-config.lua
 luafile ~\AppData\Local\nvim\plugins_config\telescope.lua
 luafile ~\Appdata\Local\nvim\plugins_config\treesitter.lua
-luafile ~\Appdata\Local\nvim\plugins_config\languages\lua-config.lua
-luafile ~\AppData\Local\nvim\plugins_config\languages\vim-config.lua
-luafile ~\Appdata\Local\nvim\plugins_config\languages\rust-config.lua
-luafile ~\Appdata\Local\nvim\plugins_config\languages\cpp-config.lua
-luafile ~\Appdata\Local\nvim\plugins_config\languages\py-config.lua
+luafile ~\Appdata\Local\nvim\plugins_config\lsp\lua-config.lua
+luafile ~\AppData\Local\nvim\plugins_config\lsp\vim-config.lua
+luafile ~\AppData\Local\nvim\plugins_config\lsp\cs-config.lua
+luafile ~\Appdata\Local\nvim\plugins_config\lsp\rust-config.lua
+luafile ~\Appdata\Local\nvim\plugins_config\lsp\cpp-config.lua
+luafile ~\Appdata\Local\nvim\plugins_config\lsp\py-config.lua
 
