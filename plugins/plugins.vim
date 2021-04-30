@@ -29,6 +29,7 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'nvim-lua/lsp_extensions.nvim'
     Plug 'simrat39/rust-tools.nvim'
     Plug 'glepnir/lspsaga.nvim'
+    Plug 'OmniSharp/omnisharp-vim' 
 
 " Prettifiers
     Plug 'jiangmiao/auto-pairs'
