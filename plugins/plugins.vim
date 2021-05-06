@@ -4,6 +4,7 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
     Plug 'mhinz/vim-startify'
+    
 " NERDTree
     Plug 'kyazdani42/nvim-web-devicons' " for file icons
     Plug 'kyazdani42/nvim-tree.lua'
@@ -25,10 +26,11 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
     Plug 'neovim/nvim-lspconfig'
     Plug 'nvim-lua/completion-nvim'
-    Plug 'nvim-treesitter/nvim-treesitter'
     Plug 'nvim-lua/lsp_extensions.nvim'
-    Plug 'simrat39/rust-tools.nvim'
     Plug 'glepnir/lspsaga.nvim'
+    Plug 'nvim-treesitter/nvim-treesitter'
+    Plug 'simrat39/rust-tools.nvim'
+    Plug 'cdelledonne/vim-cmake'
     Plug 'OmniSharp/omnisharp-vim' 
 
 " Prettifiers
