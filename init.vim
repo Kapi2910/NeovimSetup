@@ -1,29 +1,29 @@
 " Plugins
-source ~\AppData\Local\nvim\plugins\plugins.vim
+source ~/AppData/Local/nvim/plugins/plugins.vim
 
 " General Vim Settings
-source ~\Appdata\Local\nvim\general\general.vim  " General
-source ~\Appdata\Local\nvim\keys\mappings.vim   " Key Mapping
-source ~\Appdata\Local\nvim\general\neovide.vim " Neovide
-source ~\Appdata\Local\nvim\general\looks.vim   " Appearance 
+source ~/Appdata/Local/nvim/general/general.vim  " General
+source ~/Appdata/Local/nvim/keys/mappings.vim   " Key Mapping
+source ~/Appdata/Local/nvim/general/neovide.vim " Neovide
+source ~/Appdata/Local/nvim/general/looks.vim   " Appearance 
 
 " Themes
-source ~\Appdata\Local\nvim\themes\onedark.vim   
+source ~/Appdata/Local/nvim/themes/onedark.vim   
 
 " Plugins Config
-source ~\Appdata\Local\nvim\keys\which_key.vim  
-source ~\Appdata\Local\nvim\plugins_config\airline.vim  
-source ~\Appdata\Local\nvim\plugins_config\nerdtree.vim
-source ~\Appdata\Local\nvim\plugins_config\lsp\md-config.vim
-source ~\AppData\Local\nvim\plugins_config\completion-config.vim    
+source ~/Appdata/Local/nvim/keys/which_key.vim  
+source ~/Appdata/Local/nvim/plugins_config/airline.vim  
+source ~/Appdata/Local/nvim/plugins_config/nerdtree.vim
+source ~/Appdata/Local/nvim/plugins_config/lsp/md-config.vim
+source ~/AppData/Local/nvim/plugins_config/completion-config.vim    
 
-luafile ~\Appdata\Local\nvim\plugins_config\lsp-config.lua
-luafile ~\AppData\Local\nvim\plugins_config\telescope.lua
-luafile ~\Appdata\Local\nvim\plugins_config\treesitter.lua
-luafile ~\Appdata\Local\nvim\plugins_config\lsp\lua-config.lua
-luafile ~\AppData\Local\nvim\plugins_config\lsp\vim-config.lua
-luafile ~\AppData\Local\nvim\plugins_config\lsp\cs-config.lua
-luafile ~\Appdata\Local\nvim\plugins_config\lsp\rust-config.lua
-luafile ~\Appdata\Local\nvim\plugins_config\lsp\cpp-config.lua
-luafile ~\Appdata\Local\nvim\plugins_config\lsp\py-config.lua
+luafile ~/Appdata/Local/nvim/plugins_config/lsp-config.lua
+luafile ~/AppData/Local/nvim/plugins_config/telescope.lua
+luafile ~/Appdata/Local/nvim/plugins_config/treesitter.lua
+luafile ~/Appdata/Local/nvim/plugins_config/lsp/lua-config.lua
+luafile ~/AppData/Local/nvim/plugins_config/lsp/vim-config.lua
+luafile ~/AppData/Local/nvim/plugins_config/lsp/cs-config.lua
+luafile ~/Appdata/Local/nvim/plugins_config/lsp/rust-config.lua
+luafile ~/Appdata/Local/nvim/plugins_config/lsp/cpp-config.lua
+luafile ~/Appdata/Local/nvim/plugins_config/lsp/py-config.lua
 
