@@ -36,14 +36,16 @@ call plug#begin(stdpath('data').'/plugged')
 " Prettifiers
     Plug 'jiangmiao/auto-pairs'
     Plug 'tpope/vim-surround'
-    Plug 'vim-airline/vim-airline'
+    Plug 'hoob3rt/lualine.nvim'
+   " Plug 'vim-airline/vim-airline'
     Plug 'rbgrouleff/bclose.vim'
     Plug 'liuchengxu/vim-which-key'
     Plug 'ryanoasis/vim-devicons'
     Plug 'voldikss/vim-floaterm'
 " Themes
-    Plug 'morhetz/gruvbox'
-    Plug 'joshdick/onedark.vim'
+    "Plug 'morhetz/gruvbox'
+    "Plug 'joshdick/onedark.vim'
+    Plug 'folke/tokyonight.nvim'
     Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
