@@ -7,7 +7,7 @@ source ~/Appdata/Local/nvim/general/neovide.vim " Neovide
 source ~/Appdata/Local/nvim/general/looks.vim   " Appearance 
 
 " Themes
-source ~/Appdata/Local/nvim/themes/palenight.vim   
+" source ~/Appdata/Local/nvim/themes/palenight.vim   
 
 " Plugins Config
 source ~/Appdata/Local/nvim/keys/which_key.vim  

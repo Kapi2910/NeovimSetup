@@ -45,6 +45,7 @@ call plug#begin(stdpath('data').'/plugged')
 " Themes
     "Plug 'morhetz/gruvbox'
     "Plug 'joshdick/onedark.vim'
+    Plug 'christianchiarulli/nvcode-color-schemes.vim'
     Plug 'folke/tokyonight.nvim'
     Plug 'vim-airline/vim-airline-themes'
 call plug#end()
