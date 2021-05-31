@@ -17,7 +17,7 @@ source ~/Appdata/Local/nvim/plugins_config/lsp/md-config.vim
 source ~/AppData/Local/nvim/plugins_config/completion-config.vim    
 
 luafile ~/Appdata/Local/nvim/plugins_config/lsp-config.lua
-luafile ~/Appdata/Local/nvim/plugins_config/lualine.lua
+luafile ~/Appdata/Local/nvim/plugins_config/galxline.lua
 luafile ~/AppData/Local/nvim/plugins_config/telescope.lua
 luafile ~/Appdata/Local/nvim/plugins_config/treesitter.lua
 luafile ~/Appdata/Local/nvim/plugins_config/lsp/lua-config.lua

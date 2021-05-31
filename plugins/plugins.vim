@@ -36,7 +36,7 @@ call plug#begin(stdpath('data').'/plugged')
 " Prettifiers
     Plug 'jiangmiao/auto-pairs'
     Plug 'tpope/vim-surround'
-    Plug 'hoob3rt/lualine.nvim'
+    Plug 'glepnir/galaxyline.nvim'
    " Plug 'vim-airline/vim-airline'
     Plug 'rbgrouleff/bclose.vim'
     Plug 'liuchengxu/vim-which-key'
