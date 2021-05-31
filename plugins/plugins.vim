@@ -42,6 +42,7 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'liuchengxu/vim-which-key'
     Plug 'ryanoasis/vim-devicons'
     Plug 'voldikss/vim-floaterm'
+    Plug 'norcalli/nvim-colorizer.lua'
 " Themes
     "Plug 'morhetz/gruvbox'
     "Plug 'joshdick/onedark.vim'

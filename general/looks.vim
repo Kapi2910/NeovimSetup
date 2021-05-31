@@ -13,7 +13,7 @@ vim.g.tokyonight_colors = { hint = "orange", error = "#ff0000" }
 
 -- Load the colorscheme
 vim.g.tokyonight_style = "storm"
-vim.cmd[[colorscheme dracula]]
+vim.cmd[[colorscheme lunar]]
 EOF
 
  set termguicolors
