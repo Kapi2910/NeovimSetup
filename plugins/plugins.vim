@@ -47,6 +47,8 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'Pocco81/TrueZen.nvim'
     Plug 'romgrk/barbar.nvim'
 
+" Dicord
+    Plug 'andweeb/presence.nvim'
 " Themes
     "Plug 'morhetz/gruvbox'
     "Plug 'joshdick/onedark.vim'
