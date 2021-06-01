@@ -42,6 +42,9 @@ let g:which_key_map.f.d = 'open-vimrc'
 nnoremap <silent> <leader>fq :wq<CR>
 let g:which_key_map.f.q = 'save-&-quit'
 
+nnoremap <silent> <leader>fp :lua require'telescope'.extensions.project.project{}<CR>
+let g:which_key_map.f.p = 'Telescope Project'
+
 let g:which_key_map['w'] = {
       \ 'name' : '+windows' ,
       \ 'w' : ['<C-W>w'     , 'other-window']          ,
@@ -90,7 +93,5 @@ let g:which_key_map.z = {
     \ }
 
 "n is for NERDTree
-let g:which_key_map.n = {
-    \ 'name' : '+NERDTree',
-    \ }
+let g:which_key_map.n = { 'name' : '+NERDTree', }
 
