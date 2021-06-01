@@ -3,6 +3,7 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'nvim-lua/popup.nvim'
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
+    Plug 'nvim-telescope/telescope-project.nvim'
     Plug 'mhinz/vim-startify'
     
 " NERDTree
@@ -43,6 +44,7 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'ryanoasis/vim-devicons'
     Plug 'voldikss/vim-floaterm'
     Plug 'norcalli/nvim-colorizer.lua'
+    Plug 'Pocco81/TrueZen.nvim'
     Plug 'romgrk/barbar.nvim'
 
 " Themes

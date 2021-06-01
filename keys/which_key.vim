@@ -80,6 +80,14 @@ let g:which_key_map['w'] = {
       \ }
 
  
+" Zen commands
+let g:which_key_map.z = {
+    \ 'name' : '+zen',
+    \ 'm' : [':TZMinimalist', 'Minimalist'],
+    \ 'a' : [':TZAtaraxis', 'Atari'],
+    \ 't' : [':TZTop', 'Tabline'],
+    \ 'b' : [':TZBottom', 'Bufferline'],
+    \ }
 
 "n is for NERDTree
 let g:which_key_map.n = {
