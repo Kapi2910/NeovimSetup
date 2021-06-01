@@ -21,6 +21,7 @@ luafile ~/Appdata/Local/nvim/plugins_config/galxline.lua
 luafile ~/AppData/Local/nvim/plugins_config/telescope.lua
 luafile ~/Appdata/Local/nvim/plugins_config/treesitter.lua
 luafile ~/AppData/Local/nvim/plugins_config/colorizer.lua
+luafile ~/AppData/Local/nvim/plugins_config/barbar.lua
 luafile ~/Appdata/Local/nvim/plugins_config/lsp/lua-config.lua
 luafile ~/AppData/Local/nvim/plugins_config/lsp/vim-config.lua
 luafile ~/AppData/Local/nvim/plugins_config/lsp/cs-config.lua

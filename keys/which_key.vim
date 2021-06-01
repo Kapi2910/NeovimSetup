@@ -61,6 +61,7 @@ let g:which_key_map['w'] = {
       \ 's' : ['<C-W>s'     , 'split-window-below']    ,
       \ 'v' : ['<C-W>v'     , 'split-window-below']    ,
       \ '?' : ['Windows'    , 'fzf-window']            ,
+      \ 'f' : [':FloatermToggle'    , 'Floaterm']            ,
       \ }
 
 

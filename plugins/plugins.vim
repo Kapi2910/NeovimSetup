@@ -43,6 +43,8 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'ryanoasis/vim-devicons'
     Plug 'voldikss/vim-floaterm'
     Plug 'norcalli/nvim-colorizer.lua'
+    Plug 'romgrk/barbar.nvim'
+
 " Themes
     "Plug 'morhetz/gruvbox'
     "Plug 'joshdick/onedark.vim'
