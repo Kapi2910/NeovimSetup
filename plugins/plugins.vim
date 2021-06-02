@@ -4,6 +4,7 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
     Plug 'nvim-telescope/telescope-project.nvim'
+    Plug 'glepnir/dashboard-nvim'
     Plug 'mhinz/vim-startify'
     
 " NERDTree
