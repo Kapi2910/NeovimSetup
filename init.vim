@@ -11,7 +11,7 @@ source ~/Appdata/Local/nvim/general/looks.vim   " Appearance
 
 " Plugins Config
 source ~/Appdata/Local/nvim/keys/which_key.vim  
-source ~/Appdata/Local/nvim/plugins_config/airline.vim  
+"source ~/Appdata/Local/nvim/plugins_config/airline.vim  
 source ~/Appdata/Local/nvim/plugins_config/nerdtree.vim
 source ~/Appdata/Local/nvim/plugins_config/lsp/md-config.vim
 source ~/AppData/Local/nvim/plugins_config/completion-config.vim    

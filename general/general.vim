@@ -8,4 +8,4 @@ set timeoutlen=250
 set encoding=utf-8
 syntax on
 filetype plugin indent on
-
+let g:python3_host_prog='C:\Users\aadit\AppData\Local\Programs\Python\Python39\python.exe'

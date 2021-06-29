@@ -33,6 +33,7 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'nvim-treesitter/nvim-treesitter'
     Plug 'simrat39/rust-tools.nvim'
     Plug 'cdelledonne/vim-cmake'
+    Plug 'taketwo/vim-ros' 
     Plug 'OmniSharp/omnisharp-vim' 
 
 " Prettifiers
@@ -51,8 +52,6 @@ call plug#begin(stdpath('data').'/plugged')
 " Dicord
     Plug 'andweeb/presence.nvim'
 " Themes
-    "Plug 'morhetz/gruvbox'
-    "Plug 'joshdick/onedark.vim'
     Plug 'christianchiarulli/nvcode-color-schemes.vim'
     Plug 'folke/tokyonight.nvim'
     Plug 'vim-airline/vim-airline-themes'
